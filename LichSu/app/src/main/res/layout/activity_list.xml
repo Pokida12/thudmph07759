@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:onClick="t"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost"
+            android:textSize="16sp"
+            android:text="Bài 1"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Trất tự thế giới sau ctranh" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:onClick="t1"
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost1"
+            android:textSize="16sp"
+            android:text="Bài 2"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost1"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Liên Xô Và Đông Âu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="t2"
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost2"
+            android:textSize="16sp"
+            android:text="Bài 3"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost2"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Đông Bắc Á" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="t3"
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost3"
+            android:textSize="16sp"
+            android:text="Bài 4"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost3"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Đông Nam Á" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="t4"
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost4"
+            android:textSize="16sp"
+            android:text="Bài 5"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost4"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Châu Phi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="t5"
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost5"
+            android:textSize="16sp"
+            android:text="Bài 6"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost5"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Mỹ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost6"
+            android:textSize="16sp"
+            android:text="Bài 7"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost6"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Tây Âu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost7"
+            android:textSize="16sp"
+            android:text="Bài 8"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost7"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Nhật Bản" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost8"
+            android:textSize="16sp"
+            android:text="Bài 9"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost8"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Sau chiến tranh lạnh" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+        <TextView
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:id="@+id/tvNumPost9"
+            android:textSize="16sp"
+            android:text="Bài 10"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvItemPost9"
+            android:layout_weight="3.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="13sp"
+            android:textAlignment="gravity"
+            android:text="Khoa học công nghệ" />
+    </LinearLayout>
+</LinearLayout>
